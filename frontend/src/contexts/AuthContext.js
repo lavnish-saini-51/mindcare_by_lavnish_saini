@@ -134,7 +134,7 @@ const AuthContext = createContext();
 const API_BASE_URL =
   window.location.hostname === 'localhost'
     ? 'http://localhost:5000'
-    : 'https://mindcare-backend.onrender.com';
+    : 'https://mindcare-by-lavnish-saini.onrender.com';
 
 export const useAuth = () => {
   const context = useContext(AuthContext);
